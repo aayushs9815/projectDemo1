@@ -1,10 +1,10 @@
 public class testApp {
-  static void myMethod(String fname) {
+  static void welcomeBot(String fname) {
     System.out.println(fname + " joined");
   }
 
   public static void main(String[] args) {
-    myMethod("Aayush");
-    myMethod("Yuvaan");
-    myMethod("Mudit");
+    welcomeBot("Aayush");
+    welcomeBot("Yuvaan");
+    welcomeBot("Mudit");
   }
